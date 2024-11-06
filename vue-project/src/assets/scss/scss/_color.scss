@@ -1,0 +1,81 @@
+////// font, background //////
+@each $color, $value in $colors {
+  .fc-#{$color}{
+    color: #{$value} !important;
+  }
+  .bg-#{$color}{
+    background-color: #{$value} !important;
+  }
+  .bg-#{$color}-d{
+    background-color: #{$value};
+  }
+}
+
+
+/**
+* icon color change
+*/
+
+// grey
+.ic-color-f9fafb{filter: invert(90%) sepia(0%) saturate(737%) hue-rotate(179deg) brightness(110%) contrast(97%) !important;}
+.ic-color-F1F4F7{filter: invert(90%) sepia(6%) saturate(109%) hue-rotate(175deg) brightness(108%) contrast(94%) !important;}
+.ic-color-f2f2f2{filter: invert(99%) sepia(6%) saturate(329%) hue-rotate(299deg) brightness(116%) contrast(90%) !important;}
+.ic-color-e5e5e7{filter: invert(91%) sepia(97%) saturate(54%) hue-rotate(180deg) brightness(96%) contrast(90%) !important;}
+.ic-color-d2d2d6{filter: invert(85%) sepia(10%) saturate(63%) hue-rotate(201deg) brightness(105%) contrast(78%) !important;}
+.ic-color-b8bac0{filter: invert(91%) sepia(7%) saturate(191%) hue-rotate(187deg) brightness(84%) contrast(84%) !important;}
+.ic-color-9a9ba5{filter: invert(70%) sepia(5%) saturate(450%) hue-rotate(197deg) brightness(88%) contrast(88%) !important;}
+.ic-color-7c7e8a{filter: invert(52%) sepia(7%) saturate(504%) hue-rotate(194deg) brightness(93%) contrast(92%) !important}
+.ic-color-5f6271{filter: invert(38%) sepia(17%) saturate(348%) hue-rotate(192deg) brightness(94%) contrast(89%) !important;}
+.ic-color-3e4354{filter: invert(22%) sepia(5%) saturate(2343%) hue-rotate(189deg) brightness(101%) contrast(87%) !important;}
+.ic-color-10182b{filter: invert(6%) sepia(40%) saturate(1997%) hue-rotate(199deg) brightness(102%) contrast(94%) !important;}
+.ic-color-000000{filter: invert(0%) sepia(2%) saturate(7%) hue-rotate(329deg) brightness(102%) contrast(101%) !important;}
+.ic-color-ffffff{filter: invert(96%) sepia(100%) saturate(0%) hue-rotate(190deg) brightness(102%) contrast(101%) !important;}
+.ic-color-737b8e{filter: invert(50%) sepia(26%) saturate(267%) hue-rotate(184deg) brightness(91%) contrast(85%);}
+
+// blue
+.ic-color-f2f7fe{filter: invert(97%) sepia(0%) saturate(6750%) hue-rotate(178deg) brightness(96%) contrast(107%) !important;}
+.ic-color-a6e0ff{filter: invert(91%) sepia(18%) saturate(6900%) hue-rotate(180deg) brightness(112%) contrast(101%) !important;}
+.ic-color-00cbff{filter: invert(67%) sepia(40%) saturate(4056%) hue-rotate(151deg) brightness(100%) contrast(104%) !important;}
+.ic-color-00aad2{filter: invert(67%) sepia(42%) saturate(7420%) hue-rotate(156deg) brightness(94%) contrast(101%) !important;}
+.ic-color-457ff3{filter: invert(43%) sepia(81%) saturate(2172%) hue-rotate(204deg) brightness(96%) contrast(98%) !important;}
+
+// dark blue
+.ic-color-b7c2d2{filter: invert(93%) sepia(5%) saturate(1980%) hue-rotate(183deg) brightness(88%) contrast(86%) !important;}
+.ic-color-45506B{filter: invert(28%) sepia(39%) saturate(401%) hue-rotate(183deg) brightness(94%) contrast(87%) !important;}
+.ic-color-1c6bba{filter: invert(30%) sepia(77%) saturate(1109%) hue-rotate(183deg) brightness(99%) contrast(92%) !important;}
+.ic-color-09348b{filter: invert(12%) sepia(55%) saturate(4149%) hue-rotate(217deg) brightness(102%) contrast(99%) !important;}
+.ic-color-6d7da6{filter: invert(50%) sepia(36%) saturate(385%) hue-rotate(185deg) brightness(91%) contrast(90%) !important;}
+
+// yellow
+.ic-color-fffae2{filter: invert(99%) sepia(79%) saturate(350%) hue-rotate(18deg) brightness(107%) contrast(104%) !important;}
+.ic-color-ffe58e{filter: invert(98%) sepia(43%) saturate(1176%) hue-rotate(322deg) brightness(96%) contrast(108%) !important;}
+.ic-color-fff600{filter: invert(81%) sepia(65%) saturate(693%) hue-rotate(1deg) brightness(108%) contrast(104%) !important;}
+
+//pink
+.ic-color-fff0f7{filter: invert(84%) sepia(19%) saturate(113%) hue-rotate(290deg) brightness(109%) contrast(102%) !important;}
+.ic-color-fed5e1{filter: invert(84%) sepia(19%) saturate(323%) hue-rotate(297deg) brightness(99%) contrast(104%) !important;}
+.ic-color-ff8f8f{filter: invert(92%) sepia(20%) saturate(6621%) hue-rotate(302deg) brightness(101%) contrast(100%) !important;}
+.ic-color-f34c8f{filter: invert(39%) sepia(62%) saturate(1633%) hue-rotate(309deg) brightness(100%) contrast(92%) !important;}
+.ic-color-ff0900{filter: invert(18%) sepia(95%) saturate(6500%) hue-rotate(360deg) brightness(97%) contrast(110%) !important;}
+
+// purple
+.ic-color-d7bdff{filter: invert(82%) sepia(33%) saturate(1249%) hue-rotate(194deg) brightness(99%) contrast(109%) !important;}
+.ic-color-b1adff{filter: invert(83%) sepia(33%) saturate(6769%) hue-rotate(202deg) brightness(109%) contrast(102%) !important;}
+.ic-color-9c91ff{filter: invert(60%) sepia(6%) saturate(4029%) hue-rotate(205deg) brightness(99%) contrast(111%) !important;}
+.ic-color-a03beb{filter: invert(28%) sepia(36%) saturate(5164%) hue-rotate(262deg) brightness(95%) contrast(94%) !important;}
+.ic-color-9e00ff{filter: invert(13%) sepia(99%) saturate(5464%) hue-rotate(277deg) brightness(97%) contrast(123%) !important;}
+
+// Yellow Green
+.ic-color-8ec7d2{filter: invert(87%) sepia(98%) saturate(6392%) hue-rotate(165deg) brightness(90%) contrast(81%) !important;}
+.ic-color-64edd2{filter: invert(88%) sepia(15%) saturate(1410%) hue-rotate(103deg) brightness(101%) contrast(86%) !important;}
+.ic-color-43e2ba{filter: invert(100%) sepia(27%) saturate(5144%) hue-rotate(83deg) brightness(98%) contrast(81%) !important;}
+.ic-color-a6ffc6{filter: invert(92%) sepia(22%) saturate(636%) hue-rotate(70deg) brightness(99%) contrast(107%) !important;}
+
+// Green
+.ic-color-bde986{filter: invert(89%) sepia(30%) saturate(538%) hue-rotate(31deg) brightness(95%) contrast(94%) !important;}
+.ic-color-00ba34{filter: invert(69%) sepia(62%) saturate(5814%) hue-rotate(101deg) brightness(94%) contrast(101%) !important;}
+.ic-color-dcfab1{filter: invert(83%) sepia(26%) saturate(346%) hue-rotate(43deg) brightness(105%) contrast(104%) !important;}
+
+
+// orange
+.ic-color-ff8f00{filter: invert(51%) sepia(86%) saturate(1554%) hue-rotate(2deg) brightness(105%) contrast(104%) !important;}

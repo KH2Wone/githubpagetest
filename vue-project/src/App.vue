@@ -1,47 +1,36 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <!--헤더 영역 시작-->
+  <Header></Header>
+  <!--헤더 영역 끝-->
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+  <!--비쥬얼 영역 시작-->
+  <Section1></Section1>
+  <!--비쥬얼 영역 끝-->
 
-  <main>
-    <TheWelcome />
-  </main>
+  <!--about 영역 시작-->
+  <myInfo></myInfo>
+  <!--about 영역 끝-->
+  
+  <!--포토폴리오 영역 시작-->
+  <Portfolio></Portfolio>
+  <!--포토폴리오 영역 끝-->
+  
+  <!--푸터 영역 시작-->
+  <Footer></Footer>
+  <!--푸터 영역 끝-->
 </template>
 
+<script setup>
+import Header from './components/header/header.vue'
+import Section1 from './components/section/section1.vue'
+import myInfo from './components/section/myInfo.vue'
+import Portfolio from './components/section/portfolio.vue'
+import Footer from './components/footer/footer.vue'
+
+</script>
+
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+.page{
+  width:100%;
 }
 </style>

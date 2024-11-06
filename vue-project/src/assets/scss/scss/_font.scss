@@ -1,0 +1,123 @@
+/// Spoqa Han Sans Neo
+@font-face {
+  font-family: 'Spoqa Han Sans Neo';
+  font-weight: 700;
+  src: local('Spoqa Han Sans Neo Bold'),
+  url('../font/SpoqaHanSansNeo-Bold.woff2') format('woff2'),
+  url('../font/SpoqaHanSansNeo-Bold.woff') format('woff'),
+  url('../font/SpoqaHanSansNeo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Neo';
+  font-weight: 500;
+  src: local('Spoqa Han Sans Neo Medium'),
+  url('../font/SpoqaHanSansNeo-Medium.woff2') format('woff2'),
+  url('../font/SpoqaHanSansNeo-Medium.woff') format('woff'),
+  url('../font/SpoqaHanSansNeo-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Neo';
+  font-weight: 400;
+  src: local('Spoqa Han Sans Neo Regular'),
+  url('../font/SpoqaHanSansNeo-Regular.woff2') format('woff2'),
+  url('../font/SpoqaHanSansNeo-Regular.woff') format('woff'),
+  url('../font/SpoqaHanSansNeo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Neo';
+  font-weight: 300;
+  src: local('Spoqa Han Sans Neo Light'),
+  url('../font/SpoqaHanSansNeo-Light.woff2') format('woff2'),
+  url('../font/SpoqaHanSansNeo-Light.woff') format('woff'),
+  url('../font/SpoqaHanSansNeo-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Neo';
+  font-weight: 100;
+  src: local('Spoqa Han Sans Neo Thin'),
+  url('../font/SpoqaHanSansNeo-Thin.woff2') format('woff2'),
+  url('../font/SpoqaHanSansNeo-Thin.woff') format('woff'),
+  url('../font/SpoqaHanSansNeo-Thin.ttf') format('truetype');
+}
+
+/// Nanum Barun Gothic
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-weight: 100;
+  src: local('Nanum Barun Gothic Ultra Light'),
+  url('../font/NanumBarunGothicUltraLight.otf') format('opentype'),
+  url('../font/NanumBarunGothicUltraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-weight: 200;
+  src: local('Nanum Barun Gothic Light'),
+  url('../font/NanumBarunGothicLight.otf') format('opentype'),
+  url('../font/NanumBarunGothicLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-weight: 400;
+  src: local('Nanum Barun Gothic Regular'),
+  url('../font/NanumBarunGothic.otf') format('opentype'),
+  url('../font/NanumBarunGothic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-weight: 700;
+  src: local('Nanum Barun Gothic bold'),
+  url('../font/NanumBarunGothicBold.otf') format('opentype'),
+  url('../font/NanumBarunGothicBold.ttf') format('truetype');
+}
+
+/// Noto Sans
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 100;
+  src: local('Noto Sans KR Thin'),
+  url('../font/NotoSansKR-Thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  src: local('Noto Sans KR Light'),
+  url('../font/NotoSansKR-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  src: local('Noto Sans KR Regular'),
+  url('../font/NotoSansKR-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  src: local('Noto Sans KR Medium'),
+  url('../font/NotoSansKR-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 600;
+  src: local('Noto Sans KR Bold'),
+  url('../font/NotoSansKR-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 700;
+  src: local('Noto Sans KR Black'),
+  url('../font/NotoSansKR-Black.otf') format('opentype');
+}
