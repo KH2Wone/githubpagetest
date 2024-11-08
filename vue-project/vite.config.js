@@ -6,7 +6,7 @@ import vue from '@vitejs/plugin-vue'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: './',
+  base: '/githubpagetest/vue-project-dist/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
@@ -15,4 +15,7 @@ export default defineConfig({
   optimizeDeps: {
     include: ["vue"]
   },
+  build: {
+    outDir: '../vue-project-dist'  // githubpagetest/vue-project-dist 폴더에 빌드
+  }
 })
