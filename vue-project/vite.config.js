@@ -8,10 +8,13 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: '/portfolio/vue-project/' ,
+  base: '/githubpagetest/vue-project/',
   resolve: {
-    // alias: {
-    //   '@': fileURLToPath(new URL('./src', import.meta.url))
-    // },
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url))
+    },
+  },
+  optimizeDeps: {
+    include: ["vue"]
   },
 })
